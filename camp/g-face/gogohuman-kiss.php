@@ -84,7 +84,7 @@ if ( isset ( $_GET[ 'install-human' ] ) ) {
                   <?php
                   if ( function_exists ( 'human_icon' ) ) {
                               ?>
-                                <a href="?page=go-go-human&install-human=1">Install Human Templates</a>
+                                <a href="?page=human-import-export-settings">Install Human Baby</a>
                                 <?php
                     }
                     else {
