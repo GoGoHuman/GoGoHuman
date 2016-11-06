@@ -91,7 +91,7 @@ if ( isset ( $_GET[ 'install-human' ] ) ) {
                                 ?>
                                 <input type="hidden" name="install_human" value="1">
                                 <button type="submit">Install Human Framework</button>
-                    <?php } ?>
+<?php } ?>
           </form>
 
 </div>
