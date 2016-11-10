@@ -2,9 +2,9 @@
 
 /**
  * @package Go Go Human
- * @version 1.2
+ * @version 1.3
  * Author: SergeDirect <itpal24@gmail.com>
- * Version: 1.2
+ * Version: 1.3
  * Author URI: www.gogohuman.com/sergedirect/
  * Plugin Name: GoGoHuman
  * Plugin URI: http://gogohuman.com/
