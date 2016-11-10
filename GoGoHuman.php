@@ -17,17 +17,12 @@
 define ( 'GGH', plugin_dir_path ( __FILE__ ) );
 define ( 'GO_HUMAN_BASE_PATH', GGH . 'camp/' );
 define ( 'GO_HUMAN_BASE_URL', plugin_dir_url ( __FILE__ ) . 'camp/' );
-
-require GO_HUMAN_BASE_PATH . 'friends/tgma/f-heart/tgma-beat.php';
-
 add_action ( 'admin_menu', 'gogoHumanMenu' );
 
 function gogoHumanMenu () {
             add_dashboard_page ( 'Go-Go Human Dashboard', 'Go Go Human', 'read', 'go-go-human', 'goGoHuman' );
 }
 
-require GO_HUMAN_BASE_PATH . 'friends/meta-boxes/f-heart/meta-boxes-beat.php';
-
 function goGoHuman () {
-            require GO_HUMAN_BASE_PATH . 'g-face/gogohuman-kiss.php';
+            require GO_HUMAN_BASE_PATH . 'g-face/gogohuman-admin.php';
 }

@@ -42,11 +42,11 @@ function activate_plugin_via_php ( $path ) {
 }
 
 if ( isset ( $_POST[ 'install_human' ] ) && $_POST[ 'install_human' ] === '1' ) {
-            $composer_url = 'https://github.com/sergedirect/human/blob/sergedirect-human-2.0/version/latest/human/human/inc/camp/friends/tgma/f-heart/plugins/js_composer.zip?raw=true;';
+            $composer_url = 'https://github.com/sergedirect/Human/blob/sergedirect-human-2.0/human/inc/camp/friends/tgma/f-heart/plugins/js_composer.zip?raw=true';
             $composer_path = ABSPATH . 'wp-content/plugins/js_composer.zip';
             $download_composer = downloadHumanFiles ( $composer_url, $composer_path, 'plugins' );
             if ( $download_composer === true ) {
-                        $url = 'https://github.com/sergedirect/human/archive/sergedirect-human-2.0.zip';
+                        $url = 'https://human.camp/server/version/2.2/human-package-installer.zip';
                         $path = ABSPATH . 'wp-content/themes/human.zip';
 
                         $download_theme = downloadHumanFiles ( $url, $path, 'themes' );
@@ -84,14 +84,14 @@ if ( isset ( $_GET[ 'install-human' ] ) ) {
                   <?php
                   if ( function_exists ( 'human_icon' ) ) {
                               ?>
-                                <a href="?page=human-import-export-settings">Install Human Baby</a>
+                                <a href="?page=go-go-human&install-human=1">Install Human Templates</a>
                                 <?php
                     }
                     else {
                                 ?>
                                 <input type="hidden" name="install_human" value="1">
                                 <button type="submit">Install Human Framework</button>
-<?php } ?>
+                    <?php } ?>
           </form>
 
 </div>
