@@ -1,14 +1,3 @@
-# GoGoHuman
-GoGoHuman plugin for Human Theme Framework installation &amp; Human Content Builder
-
-Free and 100% open source framework:
-
-Tools powered by Visual Composer
-
-Template Builder
-Widget Builder
-Loop Builder for recent posts and comments layouts
-Form Builder
-Lot's of other functionalities.
-
-Need help? contact us via our website @ <a href="https://gogohuman.com/contact-us/">GoGoHuman.com</a>
+This project has been discontinued.
+New project is Human 3.0 and will not be listed on GitHub as our business has evolved into something more than just a Wordpress theme...
+Find out more @ www.candohuman.com
